@@ -2,3 +2,43 @@
    background-color: blueviolet;
    text-decoration: underline;
 }
+
+.names{
+   text-align: center;
+   margin-top: 5vw;
+   margin-bottom: 5vw;
+   background-color: blueviolet;
+   animation: names 2s infinite;
+   border-radius: 20px;
+   color: white;
+   padding: 10px;
+   
+}
+@keyframes names{
+    0%{
+       width: 20%;
+    }
+    100%{
+       width: 80%;
+    }
+
+}
+.bnames{
+   text-align: center;
+   margin-top: 5vw;
+   margin-bottom: 5vw;
+   background-color: blueviolet;
+   animation: bnames 2s infinite;
+   border-radius: 20px;
+   color: white;
+   padding: 10px;
+}
+@keyframes bnames{
+   0%{
+      width: 25%;
+   }
+   100%{
+      width: 80%;
+   }
+
+}
