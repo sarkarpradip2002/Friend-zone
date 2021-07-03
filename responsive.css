@@ -1,0 +1,32 @@
+.names{
+    font-size: 1.2rem;
+}
+@keyframes names{
+    0%{
+       width: 37%;
+    }
+    100%{
+       width: 80%;
+    }
+
+}
+.bnames{
+    font-size: 1.2rem;
+}
+@keyframes bnames{
+    0%{
+       width: 47%;
+    }
+    100%{
+       width: 80%;
+    }
+
+}
+.imghead{
+    font-size: 1.3rem;
+    width: 40%;
+}
+.imghead:hover{
+    font-size: 1.7rem;
+    width: 60%;
+}
